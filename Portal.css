@@ -1,0 +1,206 @@
+
+/*Começo Header*/
+.Header { margin-bottom: 30px; background-color: rgb(65, 65, 65) !important;}
+.LogoH{width: 60px;}
+body{background-color: rgb(26, 26, 26)}
+
+
+
+.nav-link{
+    font-size: 1.1rem ;
+    color:rgb(244, 188, 0) !important; 
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.Pesquisa {width:70% !important;}
+
+#Volt{display: none;}
+#BarsMenu{color:rgb(244, 188, 0) !important ;}
+
+/*Fim Header*/
+
+/*Coemço Resultado de Pesquisa*/
+.main-Pesquisa{display: none;}
+#Tela {
+    
+    padding: 1px 10px !important;
+    margin-bottom: 10px;
+}
+.Not-Box{
+    padding: 10px 0px;
+    margin: 10px 0px;
+    overflow: auto;
+    
+    border-style: groove;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: black;
+    background-color:  rgb(65, 65, 65);
+    clear: both;
+}
+.Not-Box {
+    color: whitesmoke;
+
+}
+.Texto > .LerMais {
+    
+    color: rgb(244, 188, 0) !important ;
+
+}
+.Not-Box img{
+    border-style: groove;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color:rgb(244, 188, 0);
+    float: left;
+    margin-right:10px;
+    width: 150px;
+}
+.Not-Box .Titulo{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: bolder;
+    color: rgb(244, 188, 0);
+}
+
+.Not-Box .Dados {
+    font-size: 1rem ;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: normal;
+    color: rgb(244, 188, 0);
+    
+}
+
+
+/*Fim Resultado de Pesquisa*/
+
+/*Começo do Lançamentos*/
+.P-lan{text-align: center; margin: 10px 0px;}
+.main-Lan{background-color: rgb(210, 210, 210); padding-bottom: 15px;   border-radius: 5px;}
+.Vid{margin-bottom: 20px;}
+.Indicador {margin:60px 0px}
+.Texto h4 {text-align: center;}
+.Texto  {text-align: justify;}
+
+
+
+/*Fim do Lançamentos*/
+
+/*Começo do Destaques*/
+.main-Destaques{margin: 10px 0px;}
+.Fil_Dest{padding: 10px !important;}
+.Tit { margin-top: 40px;}
+.TitDest{padding:5px; }
+.MostrarDesq {text-align: right; padding: 5px;}
+.card{ background-color:  rgb(65, 65, 65) !important;  }
+.card-title-up{color:rgb(244, 188, 0); font-family: Arial, Helvetica, sans-serif; font-size: 1.1rem;}
+.card-text{color:whitesmoke;}
+.Data{font-size: 1rem; color:rgb(244, 188, 0);}
+
+
+
+/*Fim do Destaques*/
+
+/*Começo das Avaliações*/
+.hash-list {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px){
+    .hash-list.cols-3 > li:nth-last-child(-n+3) {
+        border-bottom: none;
+    }
+}
+@media (min-width: 768px){
+    .hash-list.cols-3 > li {
+        width: 33.3333%;
+    }
+}
+.hash-list > li {
+    display: block;
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.pad-30, .pad-30-all > * {padding: 30px;}
+
+.Avaliações img {border: 0;}
+
+.mgb-20, .mgb-20-all > * {margin-bottom: 20px;}
+
+.wpx-100, .wpx-100-after:after{width: 100px;}
+
+.img-round, .img-rel-round {border-radius: 50%;}
+
+.padb-30, .padb-30-all > * {padding-bottom: 30px;}
+
+.mgb-40, .mgb-40-all > * {margin-bottom: 40px;}
+
+[class*="line-b"]{
+    position: relative;
+    padding-bottom: 20px;
+    border-color: #E6AF2A;
+}
+.fg-text-d, .fg-hov-text-d:hover, .fg-active-text-d.active {color: #222;}
+.font-cond-b {font-weight: 700 !important;}
+.Aval-Text{margin-top: 40px;}
+.Avaliações{background-color :rgb(255, 218, 96); }
+.Filme-tit{font-size: 1.2rem;}
+.Aval{background-color:  rgb(65, 65, 65); margin-top: 60px; border-top-left-radius: 5px; border-top-right-radius: 5px;}
+.Bot{background-color:  rgb(65, 65, 65); padding: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;}
+.Aval-Text{color:rgb(244, 188, 0); margin: 15px; text-align: center;}
+.Avaliações ul li {border: 0rem;}
+.Avaliações ul li p{text-align: justify;}
+.Avaliações ul li img{margin: 0 auto;  width:50%;}
+.Stars{margin-bottom: 20px;}
+.Mostrar {text-align: right; background-color:  rgb(65, 65, 65);}
+
+
+/*Fim das Avaliações*/
+
+/*Começo das Entrevistas*/
+.Entrevistas { margin-top: 60px; background-color: rgb(210, 210, 210);}
+.Entrevistas h3 { color:rgb(244, 188, 0);}
+.Making{margin-bottom: 10px; background-color:  rgb(65, 65, 65);padding: 10px; border-top-left-radius: 5px; border-top-right-radius: 5px; text-align: center;}
+.Mak-Dados{text-align: justify; font-family: Arial, Helvetica, sans-serif;}
+.MakOff{ background-color:rgb(210, 210, 210); padding:20px 0px ;}
+.MostrarMak{background-color:  rgb(65, 65, 65); padding: 5px; text-align: end; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;}
+/*Fim das Entrevistas*/
+
+/*Começo das Novidades*/
+.main-NES{margin-top: 40px;}
+.Sobre-Text{text-align: justify; font-family: Arial, Helvetica, sans-serif;}
+.card-img{height: 100%; width: 100%;}
+.Editorial-Tit{margin-bottom: 25px;}
+.Editorial{margin-bottom: 30px;}
+.fa-facebook{margin-right:10px ;}
+.fa-instagram{margin-right:10px ;}
+.fa-twitter{margin-right:10px ;}
+.card-title{text-align: justify; font-size: 1.1rem;font-family: Arial, Helvetica, sans-serif;}
+.card-text{text-align: justify; font-size: 0.93rem;font-family: Arial, Helvetica, sans-serif;}
+
+@media screen and (max-width:990px){
+
+.card-text{display: none;}
+}
+/*Fim das Novidades*/
+
+/*Começo do Footer*/
+Footer{
+    width: 100%;
+    background-color: rgb(65, 65, 65);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    color: rgb(244, 188, 0);
+    padding: 10px;
+}
+
+.Logo{width: 65px;}
+
+
+
+
+/*Fim do Footer*/

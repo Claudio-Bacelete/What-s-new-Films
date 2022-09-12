@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>What's New Films</title>
+    <link rel="sortcut icon" href="Imagens/Logo.png" type="image/PNG" />
+    <link rel="stylesheet" href="Portal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg  Header " id="Header">
+        <!-- Brand -->
+            <img class="LogoH " src="Imagens/Logo.png" alt="Logo">
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse Links " id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" onclick="Inicial()" href="#Lançamentos">Lançamentos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="Inicial()" href="#Destaques">Destaques</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="Inicial()"href="#Avaliações">Avaliações</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" onclick="Inicial()" href="#Entrevistas">Entrevistas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="Inicial()" href="#Novidades">Novidades</a>
+              </li>
+          </ul>
+        </div>
+
+        <form class="form-inline Form " action="#Header" id="Pesquisar">
+            <input class="form-control mr-sm-2 Pesquisa" id="PesquisaText" type="text" placeholder="Search" width="40px">
+            <button id="Bot" class="btn btn-warning" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+        <button id="Volt" class="btn btn-warning" type="submit">Voltar</button>
+          
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler  Cell" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <i class="fas fa-bars" id="BarsMenu"></i>
+        </button>
+    </nav> 
+
+    <main id="Tela" class="container main-Pesquisa">
+        <div class="row">
+            <div class="Not-Box col-12">
+                <img src="https://source.unsplash.com/random/120x80" alt="Teste">
+                <h4 class="Titulo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                <span class="Dados">08/11/2020 - G1- Cláudio Henrique</span><br>
+                <span class="Texto">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, perspiciatis eius officiis nemo minus pariatur quas et expedita excepturi odio illo tenetur reprehenderit voluptatibus. Incidunt ducimus consectetur voluptatibus rem ad?At iure delectus asperiores tempore dolorem ea temporibus, molestias nostrum incidunt ipsum tenetur, pariatur assumenda. Aperiam provident reiciendis fuga magni corporis temporibus eos neque. Deleniti aliquam voluptatibus dolor perspiciatis fugiat.
+                    <a  href="#" class="LerMais">Leia mais ...</a>
+                </span>
+            </div>
+        </div>
+    </main>
+
+    <main class="container main-Lan" id="Lançamentos">
+        <div class="row">
+            <div class="P-lan col-12">
+                <h2> Lançamentos</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div id="carouselExampleCaptions" class="carousel slide " data-ride="carousel">
+                <div class="carousel-inner " id="Lança">
+                        <div class="carousel-item active ">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
+                                        <iframe width="540" height="315" class="d-block w-100 Vid"
+                                             src="https://www.youtube.com/embed/IB4Tkgo8_Lc"
+                                            allow="accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture"
+                                            frameborder="0" allowfullscreen>
+                                        </iframe>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 Texto d-block w-100">
+                                        <h4>The Batman</h4>
+                                        <p><b>Sinopse:</b> The Batman é um filme inspirado no estilo noir, mostrando o lado mais investigativo do herói e uma luta identitária entre Batman e Bruce Wayne.</p>
+                                        <p><b>Direção:</b> Matt Reeves</p> 
+                                        <p><b>Elenco:</b>Robert Pattinson, Colin Farrell, Zoë Kravitz</p>
+                                        <p>30 de setembro de 2021 / Ação, Crime</p> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                        <iframe width="540" height="315" class="d-block w-100 Vid"
+                                             src="https://www.youtube.com/embed/xXEwp0uQmjM"
+                                            allow="accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture"
+                                            frameborder="0" allowfullscreen>
+                                        </iframe>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 Texto d-block w-100">
+                                        <h4>Mulher Maravilha 1984</h4> 
+                                        <p><b>Sinopse:</b> Em 1984, a Mulher-Maravilha está em um desesperador perigo mortal na face de uma enorme conspiração do empresário Max, que canta alto para satisfazer os desejos das pessoas, e uma inimiga misteriosa, a Mulher-Leopardo (Kristen Wiig). A Mulher Maravilha pode impedir o colapso do mundo sozinha?</p>
+                                        <p><b>Direção:</b> Patty Jenkin</p> 
+                                        <p><b>Elenco:</b> Gal Gadot, Chris Pine, Kristen Wiig</p>
+                                        <p>24 de dezembro de 2020 / 2h 31min / Ação, Aventura, Fantasia</p> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            
+                            <div class="carousel-item ">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                            <iframe width="540" height="315" class="d-block w-100 Vid"
+                                                src="https://www.youtube.com/embed/ZX60xMo3QB0"
+                                                allow="accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture"
+                                                frameborder="0" allowfullscreen>
+                                            </iframe>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 Texto d-block w-100">
+                                            <h4>Um Lugar Silencioso - Parte 2</h4>
+                                            <p><b>Sinopse:</b> Em Um Lugar Silencioso - Parte 2, logo após os acontecimentos mortais, a família Abbott precisa agora encarar o terror mundo afora, continuando a lutar para sobreviver em silêncio. Obrigados a se aventurar pelo desconhecido, eles rapidamente percebem que as criaturas que caçam pelo som não são as únicas ameaças que os observam pelo caminho de areia."</p>
+                                        <p><b>Direção:</b> John Krasinski</p> 
+                                        <p><b>Elenco:</b> Emily Blunt, Cillian Murphy, Millicent Simmonds</p>
+                                        <p>22 de abril de 2021 / 1h 45min / Suspense, Fantasia, Terror</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                <div class="col-12 Indicador">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                 </ol> 
+             </div> 
+            </div> 
+        </div>
+        
+    </main>
+
+    <main class="container main-Destaques" id="Destaques"> 
+        <div class="row Tit">
+            <div class="TitDest col-12">
+                <h3>Destaques (API)</h3>
+            </div>
+        </div>
+        <div class="Fil_Dest row " id="Destaque">
+            <div class="card col-6 col-sm-6 col-md-3 col-lg-3" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-warning">Go somewhere</a>
+                </div>
+            </div>
+
+              
+            <div class="card col-6 col-sm-6 col-md-6 col-lg-3" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-warning">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card col-6 col-sm-6 col-md-6 col-lg-3" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-warning">Go somewhere</a>
+                </div>
+              </div>
+              
+
+              <div class="card col-6 col-sm-6 col-md-6 col-lg-3" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-warning">Go somewhere</a>
+                </div>
+            </div>
+
+        </div>
+        
+    
+            
+        
+    </main>
+    
+    <main class="container main-Avaliações" id="Avaliações">
+        <div class="row Aval">
+            <div class="col-12"> 
+                <h3 class="Aval-Text"> Últimas Avaliações:</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container Avaliações">
+                <ul id="Per" class="hash-list pad-30-all align-center text-sm row">
+                    
+                        <li class="col-6 col-sm-6 col-md-3 col-lg-3">
+                            <img src="Imagens/106423_user_512x512.png" class="wpx-100 img-round mgb-20 " title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                            <h4 class="font-cond mgb-5 fg-text-d fs-130 Filme-tit" contenteditable="false">Coringa</h4>
+                            <p class="fs-110 font-cond-l" contenteditable="false">"Quebrou todas as minhas expectativas. A DC realmente se superou nessa obra de arte, observarmos tudo na perspectiva do Arthur, e somos imersos na escuridão e insanidade de Gotham, distorcidos pela sua esquizofrenia."</p>
+                            <h6 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Francis Assis</h6>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </li>
+
+                    <li class="col-6 col-sm-6 col-md-3 col-lg-3">
+                        <img src="Imagens/106423_user_512x512.png" class="wpx-100 img-round mgb-20 " title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                        <h4 class="font-cond mgb-5 fg-text-d fs-130 Filme-tit" contenteditable="false">Ultimato</h4>
+                        <p class="fs-110 font-cond-l" contenteditable="false">"É um filme bem desenvolvido e estruturado, contando com vários momentos emocionantes e nostálgicos para os fans. No entanto, o filme possui alguns furos de roteiro, que podem ser relevados em relação a qualidade do filme."</p>
+                        <h6 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Sr Will</h6>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </li>
+
+                    <li class="col-6 col-sm-6 col-md-3 col-lg-3">
+                        <img src="Imagens/106423_user_512x512.png" class="wpx-100 img-round mgb-20 " title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                        <h4 class="font-cond mgb-5 fg-text-d fs-130 Filme-tit" contenteditable="false">Ascensão de Skywalker</h4>
+                        <p class="fs-110 font-cond-l" contenteditable="false">"É um filme de produção excepcional, o que já é esperado de um filme produzido pela Disney sob o escopo da Lucasfilms, todavia não há um trato muito carinhoso com as histórias precedentes da nova trilogia,além de problemas na direção."</p>
+                        <h6 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Lukones </h6>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </li>
+
+                    <li class="col-6 col-sm-6 col-md-3 col-lg-3">
+                        <img src="Imagens/106423_user_512x512.png" class="wpx-100 img-round mgb-20 " title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                        <h4 class="font-cond mgb-5 fg-text-d fs-130 Filme-tit" contenteditable="false">John Wick</h4>
+                        <p class="fs-110 font-cond-l" contenteditable="false">"Incrível, outra obra de arte para a série de filme do John Wick. Um filme de ação bem gravado com vários momentos emocionantes e bem coreografados. O universo do filme vasto, porém a sua história é rasa e poderia ser mais aprofundada."</p>
+                        <h6 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Augusto</h6>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </li>
+                    
+                </ul>
+            </div> 
+        </div>
+        
+        <div class="row Bot">
+            <div class="col-12 Mostrar"> 
+                <button type="button" class="btn btn-warning col-6 col-sm-6 col-md-3 col-lg-3"><i class="fas fa-plus"></i> Carregar mais Avaliações </button>
+            </div>
+        </div>
+    </main>
+
+    <main class="container main-Entrevistas " id="Entrevistas">
+    <div class="row Entrevistas">
+        <div class="Making col-12">
+            <h3> Entrevistas</h3>
+        </div>
+    </div>
+
+    <div class="row MakOff">
+        <div class="Ent1 col-12 col-sm-12 col-md-4 col-lg-4">
+            <iframe class="col-12"  width="540" height="315"
+                src="https://www.youtube.com/embed/txLoFqFyr08"
+                allow="accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture"
+                frameborder="0" allowfullscreen>
+           </iframe>
+           <div class="col-12 Mak-Dados">
+            <h4>Star Wars: A Ascensão Skywalker</h4>
+            <div><b>Direção:</b>  J.J. Abrams</div>
+            <div><b>Estreia:</b>  19 de dezembro de 2019 </div>
+           </div>
+        </div>
+        <div class="Ent2 col-12 col-sm-12 col-md-4 col-lg-4">
+            <iframe class="col-12"  width="540" height="315"
+                src="https://www.youtube.com/embed/cLVNJ50vCDI"
+                allow="accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture"
+                frameborder="0" allowfullscreen>
+           </iframe>
+           <div class="col-12  Mak-Dados">
+            <h4>Coringa</h4>
+            <div><b>Direção:</b>  Todd Phillips</div>
+            <div><b>Estreia:</b>  3 de outubro de 2019</div>
+           </div>
+        </div>
+        <div class="Ent3 col-12 col-sm-12 col-md-4 col-lg-4">
+            <iframe class="col-12" width="540" height="315"
+                src="https://www.youtube.com/embed/G61QhQjsvpw"
+                allow="accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture"
+                frameborder="0" allowfullscreen>
+           </iframe>
+           <div class="col-12 Mak-Dados">
+            <h4>Vingadores Ultimato</h4>
+            <div><b>Direção:</b>  Joe Russo, Anthony Russo</div>
+            <div><b>Estreia:</b>  25 de abril de 2019 </div>
+           </div>
+        </div>
+        
+    </div>
+
+    <div class="row"> 
+        <div class="col-12 MostrarMak"> 
+            <button type="button" class="btn btn-warning col-6 col-sm-6 col-md-3 col-lg-3"><i class="fas fa-plus"></i> Carregar mais Entrevistas</button>
+        </div>
+    </div>
+    </main>
+
+    <main class="container main-NES" id="Novidades">
+    <div class="row">
+    <div class="Novidades col-12 col-sm-12 col-md-7 col-lg-7">
+        <div class="card bg-dark mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-4">
+                <img src="Imagens/Zac_Efron_on_the_red_carpet_of_the_Baywatch_in_Miami_02.png" class="card-img" alt="Zac Efron">
+              </div>
+
+              <div class="col-8">
+                <div class="card-body text-warning">
+                  <h6 class="card-title">Zac Effron vai estrelar filme de terror adaptado de obra Stephen King</h6>
+                  <p class="card-text">Após ser confirmado no remake de Três Solteirões e Um Bebê, Zac Efron foi escalado para uma nova versão de Chamas da Vingança. A Incendiária, obra de Stephen King, ganhará uma nova adaptação para as telonas.</p>
+                  <a href="#" class="badge badge-warning">Zac Effron</a>
+                  <a href="#" class="badge badge-warning">Stephen King</a>
+                  <a href="#" class="badge badge-warning">Chamas de Vingança</a>
+                </div>
+              </div>
+
+            </div>
+        </div>
+
+          <div class="card  bg-dark mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-4">
+                <img src="Imagens/Chadwick.jpg" class="card-img" alt="Chadwick Boseman">
+              </div>
+              <div class="col-8">
+                <div class="card-body text-warning">
+                  <h6 class="card-title">Chadwick Boseman doou parte do seu cachê para aumentar salário de Sienna Miller</h6>
+                  <p class="card-text">Em agosto deste ano, o mundo foi surpreendido com a morte de Chadwick Boseman, o intérprete de Pantera Negra, vitima de câncer. Desde então, vários astros fizeram homenagens para o saudoso ator, sendo a vez de Sienna Miller lembrar uma nobre ação do moço.</p>
+                  <a href="#" class="badge badge-warning">Chadwick Boseman</a>
+                  <a href="#" class="badge badge-warning">Sienna Miller</a>
+                  <a href="#" class="badge badge-warning">Doação</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-dark mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-4">
+                <img src="Imagens/vindiesel1-1531774038.gallery.jpg" class="card-img" alt="Vin Diesel">
+              </div>
+              <div class="col-8">
+                <div class="card-body text-warning">
+                  <h6 class="card-title">Vin Diesel se lança como cantor e divulga single</h6>
+                  <p class="card-text">Com a estreia de Velozes & Furiosos 9 adiada, Vin Diesel está se arriscando em outra carreira: a de cantor. O astro lançou o seu primeiro single "Feel Like I Do", em parceria com o DJ norueguês Kygo.</p>
+                  <a href="#" class="badge badge-warning">Vin Diesel</a>
+                  <a href="#" class="badge badge-warning">Música</a>
+                  <a href="#" class="badge badge-warning">Velozes & Furiosos</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="Sobre col-12 col-sm-12 col-md-5 col-lg-5">
+        <h3 class="Sobre-Tit"> Sobre:</h3>
+        <p class="Sobre-Text">O What's New Films é um portal de filmes criado em Setembro de 2020 no intuito reunir informações sobre lançamentos, filmes em alta, curiosidades, bastidores para todos que gostam do universo dos cinemas.  </p>
+        <div class="Editorial"> 
+            <h3 class="Editorial-Tit"> Editorial:</h3>
+            <p class="Editorial-Text"><i class="fas fa-user"></i>    <b>Redação: </b>Cláudio Henrique </p>
+            <p class="Editorial-Text"><i class="fas fa-user"></i>    <b>Pesquisa: </b>Cláudio Henrique </p>
+            <p class="Editorial-Text"><i class="fas fa-user"></i>    <b>Gerente Geral: </b>Cláudio Henrique </p>
+        </div>
+        <div class="Redes-Sociais ">
+            <h4>Redes Sociais:</h4>
+            <i class="fab fa-facebook fa-2x"></i>
+            <i class="fab fa-twitter fa-2x"></i>
+            <i class="fab fa-instagram fa-2x"></i>
+            
+        </div>
+    </div>
+    
+</div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="Footer">Copyright 2020 - Disciplina de Desenvolvimento de Interfaces Web - <b>PUC Minas</b>
+            <img  class="Logo" src="Imagens/Logo.png">
+        </div>
+        
+    </footer>
+
+    <script src="Portal.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5cfc7e8c3e.js" crossorigin="anonymous"></script>
+   
+</body>
+</html>
